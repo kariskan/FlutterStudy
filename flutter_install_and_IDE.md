@@ -1,4 +1,4 @@
-Flutter install & Environment variable settings
+Flutter install & Environment variable settings & IDE
 ===================================================
 
 SDK : Software Deveopment Kit (소스코드의 모음과 유틸리티)   
