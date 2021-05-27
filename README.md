@@ -7,4 +7,4 @@ Flutter는 기존 코드와 함께 작동하고 전 세계 개발자와 조직�
 <h2>참고</h2>
 
 [플러터: 공식 깃허브](https://github.com/flutter/flutter)<br>
-[유튜브: 코딩셰프](https://www.youtube.com/channel/UC_2ge45JCuJH1z6VYt4iCgQ)
+[유튜브: 코딩셰프](https://www.youtube.com/channel/UC_2ge45JCuJH1z6VYt4iCgQ)<br>
