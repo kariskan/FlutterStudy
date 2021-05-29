@@ -33,7 +33,9 @@ Stateful => 입력되는 Value값에 의한 상호작용의 상태를 지속적�
 실질적으로 MaterialApp 이 전체 앱을 관리
 Scaffold Widget : 앱 화면과 기능을 구성하기 위한 빈 페이지를 준비하는 위젯
 AppBar Widget : 앱 화면에 가장 상단에 위치하는 위젯
-Text : AppBar안에 있는 위젯
-![1](https://user-images.githubusercontent.com/73534426/120071346-ccb05600-c0c9-11eb-9b5d-edec7a1bc4ec.JPG)
-![2](https://user-images.githubusercontent.com/73534426/120071353-d2a63700-c0c9-11eb-9d1e-6fafaedb6784.JPG)
+Text : AppBar안에 있는 위젯     
+
+
+![1]<img src = "https://user-images.githubusercontent.com/73534426/120071346-ccb05600-c0c9-11eb-9b5d-edec7a1bc4ec.JPG" width="450px" height="300px"/>   
+![2]<img src = "https://user-images.githubusercontent.com/73534426/120071353-d2a63700-c0c9-11eb-9d1e-6fafaedb6784.JPG" width="450px" height="300px"/>
 
