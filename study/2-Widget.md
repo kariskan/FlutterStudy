@@ -36,5 +36,6 @@ AppBar Widget : 앱 화면에 가장 상단에 위치하는 위젯
 Text : AppBar안에 있는 위젯        
 
 
-<img src = "https://user-images.githubusercontent.com/73534426/120071346-ccb05600-c0c9-11eb-9b5d-edec7a1bc4ec.JPG" width="300px" height="300px"/><img src = "https://user-images.githubusercontent.com/73534426/120071353-d2a63700-c0c9-11eb-9d1e-6fafaedb6784.JPG" width="300px" height="500px"/>
-이미지 출처 : 유튜브 코딩셰프
+<img src = "https://user-images.githubusercontent.com/73534426/120071346-ccb05600-c0c9-11eb-9b5d-edec7a1bc4ec.JPG" width="300px" height="300px"/><img src = "https://user-images.githubusercontent.com/73534426/120071353-d2a63700-c0c9-11eb-9d1e-6fafaedb6784.JPG" width="300px" height="500px"/><br>
+[유튜브: 코딩셰프](https://www.youtube.com/channel/UC_2ge45JCuJH1z6VYt4iCgQ)<br>
+
