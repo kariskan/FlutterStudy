@@ -1,4 +1,4 @@
-# ● Flutter(플러터)
+# Flutter(플러터)
 ![image](https://user-images.githubusercontent.com/74492426/118628496-9c360580-b807-11eb-933d-16a28b6584b3.png)
 
 Flutter는 단일 코드베이스에서 모바일, 웹 및 데스크톱을위한 아름답고 빠른 사용자 경험을 만들기위한 Google의 SDK입니다.<br><br>
