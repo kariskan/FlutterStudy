@@ -83,7 +83,7 @@ Column(
 
 ![image](https://user-images.githubusercontent.com/74492426/123544581-f0c98a80-d78e-11eb-9c55-b8268f1b514d.png)
 
-수직으로 정렬되는 아이템들을 Row와 마찬가지로 **MainAxis*와 **CrossAxis**를 이용해서 수정이 가능하다, 한가지 주의해야 할 점은 이제 **MainAxis**가 수직을 기준으로 정렬하고 **CrossAxis**가 수평을 기준으로 정렬한다는 것이다.
+수직으로 정렬되는 아이템들을 Row와 마찬가지로 **MainAxis**와 **CrossAxis**를 이용해서 수정이 가능하다, 한가지 주의해야 할 점은 이제 **MainAxis**가 수직을 기준으로 정렬하고 **CrossAxis**가 수평을 기준으로 정렬한다는 것이다.
 
 예를 들어 MainAxisAlignment를 center로 하면,
 ```dart
