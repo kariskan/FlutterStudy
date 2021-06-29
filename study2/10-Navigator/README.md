@@ -2,7 +2,8 @@ Navigator Widget
 --
 * 앱상에서 페이지 이동 이동 기능 구현을 위해 필요.
 * navigator 위젯으로 페이지 이동 기능을 구현하려면 반드시 route와 context의 개념을 이해해야 한다.
-
+* Scaffold를 사용해서 AppBar를 생성하면 flutter가 자동으로 뒤로가기 화살표를 만들어준다. (굳이 pop 메서드 구현 필요 x)
+* AppBar를 생성하지 않는다면 pop메서드 구현 필요.
 
 
 
