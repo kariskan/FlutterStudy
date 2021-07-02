@@ -1,16 +1,18 @@
-# logindice
+주사위 게임
+==
 
-A new Flutter application.
 
-## Getting Started
+구현목록
+--
+* 미리 지정된 아이디로 **로그인**한다. 
+  - 올바르지 않은 로그인 정보를 입력하면 토스트메세지로 예외처리를 알려준다.
+* 버튼을 누르면 **주사위 눈이 랜덤**으로 나온다.
+  - 토스트메세지로 현재 눈의 숫자를 알려준다.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+작동화면
+--
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![동작화면](https://user-images.githubusercontent.com/74492426/124317313-ee619900-dbb1-11eb-8863-d885d340bb84.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
