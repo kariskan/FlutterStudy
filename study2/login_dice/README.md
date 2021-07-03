@@ -13,6 +13,7 @@
 작동화면
 --
 
+
 ![동작화면](https://user-images.githubusercontent.com/74492426/124317313-ee619900-dbb1-11eb-8863-d885d340bb84.gif)
 
 
