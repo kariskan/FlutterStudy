@@ -215,9 +215,68 @@ Hello World
 ```
 결과가 이와 같은 이유는 3-2번 코드의 설명과 동일하다.
 
-async / await 를 사용하면 더 이상 then 은 필요가 없을까?
+Flutter에 적용한 코드
 ==
 
+Flutter 에는 ```Future``` 를 이용해 위젯을 렌더링 할 수 있는 ```futureBuilder``` 라는 위젯이 있다. 이 위젯을 이용하면 ```Future<String>``` 으로도 위젯을 렌더링 할 수있다.
+
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  Future<String> future;
+
+  Future<String> helloWorld() {
+    return Future.delayed(Duration(seconds: 15), () {
+      return 'Hello World';
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    future = helloWorld();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: Center(
+        child: FutureBuilder<String>(
+          future: future,
+          builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+            if (snapshot.hasData) {
+              return Text('스냅샷 데이터: ${snapshot.data.toString()}');
+            } else if (snapshot.hasData == false) {
+              return CircularProgressIndicator();
+            } else if (snapshot.hasError) {
+              return Text('스냅샷 에러');
+            } else {
+              return Text('혹시 몰라서 else문 추가');
+            }
+          },
+        ),
+      ),
+    );
+  }
+}
+```
+
+- Flutter 프로젝트 생성시 자동으로 작성되는 코드에서 ```MyHomePageState``` 만 수정하였다.
+- 맨 처음 ```helloWorld()``` 함수에서 15초 후에 ```'Hello World'``` 가 나오는 ```Future<String>``` 을 return 한다.
+- 이를 ```initState()``` 함수에서 ```future``` 변수에 저장한다. 
+- 그리고 ```build``` 함수 내에서 **```FutureBuilder()``` 를 이용하여 ```Future<String>``` 만으로 ```String``` 을 이용하여 렌더링 한 것처럼 만든다.**
+
+>```Future<String>``` 상자에서 ```String``` 이 나왔을 때 -> ```if(snapshot.hasData){...}```
+  
+>```Future<String>``` 상자에서 아무것도 나오지 않았을 때 -> ```if(snapshot.hasData==false){...}```
+  
+>```Future<String>``` 상자에서 ```error``` 가 나왔을 때 -> ```if(snapshot.hasError){...}```
+  
+ 각 경우에 원하는 위젯을 ```[...]``` 안에서 return 해주면 된다. 위 코드를 빌드하면 아래와 같다.
+  
+  ![image](https://user-images.githubusercontent.com/74492426/124466895-162f4780-ddd2-11eb-9857-b61e5550c63c.png)
 
 
 
