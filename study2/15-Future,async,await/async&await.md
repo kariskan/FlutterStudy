@@ -19,7 +19,7 @@ Future functionName() async {
 ```
 
 async/await 가 왜 필요할까?
--==
+==
 
 아래의 두 코드를 비교하면 왜 사용하는지 알 수 있다.
 
