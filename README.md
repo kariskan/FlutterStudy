@@ -5,12 +5,17 @@ Flutter는 기존 코드와 함께 작동하고 전 세계 개발자와 조직�
 
 멤버
 --
-[윤중진](https://github.com/kariskan) : [study](https://github.com/dkswnzz/Flutter-Study/tree/main/study)
 
-[안주형](https://github.com/dkswnzz) : [study2](https://github.com/dkswnzz/Flutter-Study/tree/main/study2)
+
+이름|학습폴더|
+|-----------|---------|
+|[안주형](https://github.com/dkswnzz)|[study2](https://github.com/dkswnzz/Flutter-Study/tree/main/study2)|
+|[윤중진](https://github.com/kariskan)|[study](https://github.com/dkswnzz/Flutter-Study/tree/main/study)|
+
 
 참고
 --
 플러터: [깃허브](https://github.com/flutter/flutter),[문서](https://flutter-ko.dev/docs)
 
 유튜브: [코딩셰프](https://www.youtube.com/channel/UC_2ge45JCuJH1z6VYt4iCgQ)
+
